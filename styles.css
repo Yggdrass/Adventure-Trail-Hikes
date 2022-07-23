@@ -1,0 +1,621 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --box-shadow: rgba(0, 0, 0, 0.24);
+    --yellow: #f5f548;
+    --main_green: #008238;
+    --main_green_transparent: hsla(146, 100%, 25%, 0.815);
+    --blue: #2C78BF;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    letter-spacing: 0.2rem;
+    position: sticky;
+    top:0;
+}
+
+
+header, .image {
+    margin-bottom: 3rem;
+}
+
+
+h1 {
+    font-size: 4.5rem;
+}
+
+
+h1, h2, h3, h4, h5, #trail_info {
+    text-transform: uppercase;
+}
+
+hr {
+    max-width: 90%;
+    border: 1px solid var(--main_green);
+}
+
+
+p {
+    font-size: 1.5rem;
+    padding: 0 2rem 0 2rem;
+    line-height: 2rem;
+}
+
+footer, header {
+    background-color: var(--main_green);
+}
+
+footer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    max-width: 125%;
+}
+
+#card_image {
+    max-width: 100%;
+    margin-bottom: 2rem;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+.welcome_text {
+    font-size: 1.9rem;
+    max-width: 45ch;
+}
+
+h1, h2, h4, h5, h6, .welcome_text, #card_text, .button_explore {
+    padding-left: 1.5rem;
+    margin: 2rem 0 0 0;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    padding-left: 2rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+h6 {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+
+h3, h4 {
+    color: var(--main_green);
+}
+
+
+.section_image, .image {
+    padding: 0;
+    max-width: 100%;
+}
+
+.button_explore, .button_explore_card, .button_readMore {
+    color: var(--main_green);
+    border: none;
+    text-transform: uppercase;
+}
+
+.button_explore, .button_explore_card {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.button_readMore {
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.card, #card_trail {
+    max-width: 35rem;
+    margin: 2rem auto;
+    border: 2px solid var(--yellow);
+    box-shadow: 5px 5px 10px var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+#card_text {
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.company_name, .button_explore {
+    cursor: pointer;
+}
+
+.company_name {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.company-heading {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 7em;
+}
+
+.navmenu {
+    display: none;
+}
+
+.navmenu, .active {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navlink {
+    text-decoration: none;
+    color: var(--white);
+    padding-right: 3rem;
+}
+
+
+.section, hr {
+    margin-bottom: 3rem;
+}
+
+.section {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer_social_media_title {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+
+.footer_copyright_text {
+    color: var(--white);
+    font-size: 1rem;
+}
+
+
+#footer_social_media_icons {
+    color: var(--white);
+    font-size: 5rem;
+    padding-left: 2rem;
+}
+
+#social_media_contact {
+    font-size: 4rem;
+}
+
+#hamburger-menu:checked ~ .hamburger-nav {
+    display: flex;
+}
+
+.hamburger-nav {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: var(--main_green);
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: 500;
+    padding: 2rem;
+    font-size: 4.5rem;
+    top: 120px;
+    left: 0px;
+}
+
+#hamburger-icon {
+    font-size: 4rem;
+    padding-right: 1rem;
+    color: var(--white);
+}
+
+.hamburger-link {
+    color: var(--white);
+    text-decoration: none;
+    padding: 2rem;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#active, #hamburger-active {
+    text-decoration: underline;
+    color: var(--yellow);
+}
+
+
+.fa-solid, .fa-brands, #icon_faq {
+    color: var(--main_green);
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+
+
+.card_faq {
+    border: 2px solid var(--black);
+    max-width: 36rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+#icon_faq {
+    color: var(--main_green);
+    max-width: 2rem;
+}
+
+#trail_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#icon_trails {
+    max-width: 3rem;
+    padding-left: 1rem;
+}
+
+#icon_trails_info {
+    max-width: 2.5rem;
+    padding-right: 1rem;
+}
+
+@media (min-width: 350px) {
+    #hamburger-icon {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        max-width: 22rem;
+    }
+
+    #social_media_contact {
+        font-size: 2rem;
+    }
+
+    #flex_1 {
+        order: 2;
+    }
+
+    .button_explore_card {
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    .button_explore {
+        display: none;
+    }
+
+    hr {
+        max-width: 80%;
+    }
+
+    .logo {
+        max-width: 4em;
+    }
+
+    .company_name {
+        font-size: 1.2rem;
+        padding-left: 0.6rem;
+    }
+    
+    .hamburger-nav {
+        right: 0px;
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding-left: 0.6rem;
+        padding-right: 0.3rem;
+    }
+
+    .button_explore {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .card_faq {
+        padding: 0 0.5rem 0 0.5rem;
+    }
+
+    #footer_social_media_icons {
+        font-size: 3rem;
+    }
+
+    #card_trail {
+        max-width: 20rem;   
+    }
+
+    #trail_info {
+        font-size: 1.3rem;
+    }
+
+    #icon_trails {
+        max-width: 2.5rem;
+    }
+}
+
+
+
+@media (min-width:890px) {
+    .company_name {
+        font-size: 2.7rem;
+        padding-left: 1rem;
+}
+
+    .company-heading {
+        padding-left: 1rem;
+}
+
+    .card_faq {
+        max-width: 52rem;
+        padding: 2rem;
+    }
+
+    .hamburger-nav {
+        right: 0px;
+    }
+
+    h3 {
+        font-size: 3rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    
+    #social_media_contact {
+        font-size: 5rem;
+        padding-right: 3rem;
+    }
+    
+    h6 {
+        font-size: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .button_readMore {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 960px) {
+    .company_name {
+        font-size: 2.7rem;
+        padding-left: 1rem;
+}
+
+    .company-heading {
+        padding-left: 1rem;
+}
+
+    .card_faq {
+        max-width: 52rem;
+        padding: 2rem;
+    }
+
+    .hamburger-nav {
+        right: 0px;
+    }
+
+    h3 {
+        font-size: 3rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    
+    #social_media_contact {
+        font-size: 5rem;
+        padding-right: 3rem;
+    }
+    
+    h6 {
+        font-size: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .button_readMore {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hamburger-icon {
+        display: none;
+    }
+
+    header {
+        z-index: 1;
+    }
+    .navmenu {
+        display: flex;
+    }
+
+    .company_name {
+        font-size: 3rem;
+}
+
+    .logo {
+        max-width: 5em;
+}
+
+    #section_hero {
+        position: absolute;
+        top: 180px;
+        left: 50px;
+        max-width: 60ch;
+        padding: 3rem;
+        color: var(--white);
+        background-color: var(--main_green_transparent);
+        flex-direction: column;
+    }
+
+    .section_image {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 5rem;
+    }
+
+    p {
+        max-width: 40ch;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .section {
+        padding: 0 10rem 0 10rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section_index_faq {
+        flex-direction: column;
+    }
+
+    #section_index_faq_box {
+        flex-direction: column;
+    }
+
+    .button_explore_card {
+        display: none;
+    }
+
+    .button_explore {
+        font-size: 1.8rem;
+    }
+
+    .card {
+        max-width: 30rem;
+        margin: 0;
+    }
+
+    #card_text {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    #page_title {
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+    }
+
+    .footer_copyright_text {
+        padding-top: 1rem;
+        max-width: 100%;
+    }
+
+    .trails {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #trails_text {
+        font-size: 2rem;
+        max-width: 45ch;
+    }
+    
+    #card_trail {
+        margin: 6rem;
+    }
+
+    #section_faq, #section_contact {
+        flex-direction: column;
+    }
+
+    #section_contact {
+        align-items: flex-start;
+    }
+
+}
