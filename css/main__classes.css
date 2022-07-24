@@ -1,0 +1,49 @@
+
+/*----- MAIN BASIC CLASSES ------------------------------------------*/
+
+
+body {
+    margin: 0;
+}
+
+header {
+    justify-content: space-between;
+    letter-spacing: 0.2rem;
+    position: sticky;
+    top:0;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    border: 1px solid var(--main_green);
+    max-width: 90%;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0 2rem 0 2rem;
+}
+
+

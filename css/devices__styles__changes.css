@@ -1,0 +1,327 @@
+
+
+/*----- DIFFERENT DEVICE SIZES AND CHANGES TO THE PAGE -------------------------------------------------------------------------------------------*/
+
+
+@media (min-width: 350px) {    
+
+    h1 {
+        font-size: 2.4rem;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    hr {
+        max-width: 80%;
+    }
+
+    .button_explore {
+        text-align: center;
+        display: none;
+    }
+
+    .button_explore_card {
+        display: block;
+    }
+
+    .button_explore, .button_explore_card {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        max-width: 22rem;
+    }
+
+    .card_faq {
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    
+    .company_name {
+        font-size: 1.2rem;
+        padding-left: 0.6rem;
+    }
+    
+    .hamburger-nav {
+        right: 0px;
+    }
+
+    .hamburger-nav, #social_media_contact {
+        font-size: 2rem;
+    }
+
+    .logo {
+        max-width: 4em;
+    }
+
+    .section {
+        padding-left: 0.6rem;
+        padding-right: 0.3rem;
+    }
+
+    #flex_1 {
+        order: 2;
+    }
+
+    #footer_social_media_icons {
+        font-size: 3rem;
+    }
+
+    #hamburger-icon {
+        font-size: 2.5rem;
+    }
+
+    #card_trail {
+        max-width: 20rem;   
+    }
+
+    #icon_trails {
+        max-width: 2.5rem;
+    }
+
+    #trail_info {
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
+@media (min-width:890px) {
+    
+    h3 {
+        font-size: 3rem;
+        margin-top: 4rem;
+        text-align: center;
+    }    
+
+    h6 {
+        font-size: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .button_readMore {
+        font-size: 1.8rem;
+    }
+
+    .card_faq {
+        max-width: 52rem;
+        padding: 2rem;
+    }
+
+    .company_name {
+        font-size: 2.7rem;
+    }
+
+    .company-heading, .company_name {
+        padding-left: 1rem;
+    }
+
+    .hamburger-nav {
+        right: 0px;
+    }
+    
+    #social_media_contact {
+        font-size: 5rem;
+        padding-right: 3rem;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 960px) {
+
+    h3 {
+        font-size: 3rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+        
+    h6 {
+        font-size: 2.5rem;
+        padding-left: 2rem;
+    }
+
+    .button_readMore {
+        font-size: 1.8rem;
+    }
+
+    .card_faq {
+        max-width: 52rem;
+        padding: 2rem;
+    }
+
+    .company_name {
+        font-size: 2.7rem;
+    }
+
+    .company-heading, .company-name { 
+        padding-left: 1rem;
+    }
+
+    .hamburger-nav {
+        right: 0px;
+    }
+
+    #social_media_contact {
+        font-size: 5rem;
+        padding-right: 3rem;
+    }
+    
+}
+
+
+
+/*----- PC WEBSITES -----------------------------------------------------*/
+
+
+@media (min-width: 1200px) {
+
+    footer {
+        padding-bottom: 2rem;
+    }
+
+    footer, .section {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h4, p, #trails_text {
+        font-size: 2rem;
+    }
+    
+    header {
+        z-index: 1;
+    }
+
+    p {
+        max-width: 40ch;
+        line-height: 3rem;
+    }
+
+    .navmenu {
+        display: flex;
+    }
+
+    .company_name {
+        font-size: 3rem;
+    }
+    
+    .footer_copyright_text {
+        padding-top: 1rem;
+        max-width: 100%;
+    }
+
+    .logo {
+        max-width: 5em;
+    }
+
+    .section_image {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 5rem;
+    }
+
+    .section {
+        padding: 0 10rem 0 10rem;
+        align-items: center;
+    }
+
+    .section_index_faq, #section_index_faq_box, #section_hero, #section_faq, #section_contact {
+        flex-direction: column;
+    }
+
+    .button_explore {
+        font-size: 1.8rem;
+        display: block;
+    }
+
+    .button_explore:hover {
+        font-size: 2rem;
+    }
+
+    .button_explore_card {
+        display: none;
+    }
+
+    .card {
+        max-width: 30rem;
+        margin: 0;
+    }
+
+    .trails {
+        display: flex;
+        justify-content: center;
+    }
+
+    #card_text {
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+
+    #card_trail {
+        margin: 6rem;
+    }
+
+    #flex_2 {
+        order: 2;
+    }
+
+    #hamburger-icon {
+        display: none;
+    }
+        
+    #page_title {
+        text-align: center;
+    }
+    
+    #section_hero {
+        position: absolute;
+        top: 180px;
+        left: 50px;
+        max-width: 60ch;
+        padding: 3rem;
+        color: var(--white);
+        background-color: var(--main_green_transparent);
+    }
+
+    #trails_text {
+        max-width: 45ch;
+    }
+
+    .trails, #section_contact {
+        align-items: flex-start;
+    }
+
+}

@@ -1,0 +1,12 @@
+:root {
+    --black: #000;
+    --blue: #2C78BF;
+    --box-shadow: rgba(0, 0, 0, 0.24);
+    --main_green: #008238;
+    --main_green_transparent: hsla(146, 100%, 25%, 0.815);
+    --white: #fff;
+    --yellow: #f5f548;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+}

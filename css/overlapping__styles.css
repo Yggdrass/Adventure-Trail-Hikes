@@ -1,0 +1,128 @@
+
+
+/*----- MULTIPLE GROUPS OVERLAPPING STYLING -------------------------------------------------------------------------------------------*/
+
+
+
+footer, h6, header, .card, .card_faq, .company-heading, .section, #card_trail, #trail_info {
+    display: flex;
+}
+
+footer, header, .hamburger-nav {
+    background-color: var(--main_green);
+}
+
+footer, .card, .card_faq, .hamburger-nav, .section, #card_trail {
+    flex-direction: column;
+}
+
+footer, .card_faq {
+    padding: 1rem;
+}
+
+h3, h4, .fa-solid, .fa-brands, #icon_faq {
+    color: var(--main_green);
+}
+
+h1, h2, h3, h4, h5, .active, .button_explore, .button_explore_card, .button_readMore, .company_name, .footer_social_media_title, .hamburger-nav, .navmenu, #trail_info {
+    text-transform: uppercase;
+}
+
+h1, h2, h4, h5, h6, .welcome_text, #card_text, .button_explore {
+    padding-left: 1.5rem;
+    margin: 2rem 0 0 0;
+}
+
+h3, #footer_social_media_icons, #trail_info {
+    padding-left: 2rem;
+}
+
+h6, .company_name {
+    font-size: 1.7rem;
+}
+
+header, h6, .company-heading, .hamburger-nav, #trail_info {
+    align-items: center;
+}
+
+header, .company_name, .footer_copyright_text, .footer_social_media_title, .hamburger-link, .navlink, #footer_social_media_icons, #hamburger-icon {
+    color: var(--white);
+}
+
+header, .image {
+    margin-bottom: 3rem;
+}
+
+hr, .section {
+    margin-bottom: 3rem;
+}
+
+.active, .navmenu  {
+    font-size: 1.2rem;
+}
+
+.active, .button_readMore, .hamburger-nav, .navmenu, #trail_info {
+    font-weight: 500;
+}
+
+.button_explore, .button_explore_card {
+    font-size: 1.8rem;
+}
+
+.button_explore, .button_explore_card, .button_readMore {
+    color: var(--main_green);
+    border: none;
+}
+
+.button_explore, .button_explore_card, #card_image, #card_text, #trail_info {
+    margin-bottom: 2rem;
+}
+
+.button_explore, .company_name {
+    cursor: pointer;
+}
+
+.card, #card_trail {
+    max-width: 35rem;
+    margin: 2rem auto;
+    border: 2px solid var(--yellow);
+    box-shadow: 5px 5px 10px var(--box-shadow);
+}
+
+a, .company-heading, .hamburger-link, .navlink {
+    text-decoration: none;
+}
+
+.fa-solid, .fa-brands, #icon_faq {
+    color: var(--main_green);
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.hamburger-link, .hamburger-nav {
+    padding: 2rem;
+}
+
+.hamburger-nav, .navmenu, #hamburger-menu {
+    display: none;
+}
+
+.image, .section_image {
+    padding: 0;
+    max-width: 100%;
+}
+
+#active, #hamburger-active {
+    text-decoration: underline;
+    color: var(--yellow);
+}
+
+#hamburger-icon, #icon_trails_info {
+    padding-right: 1rem;
+}
+
+#hamburger-icon, #social_media_contact {
+    font-size: 4rem;
+}
+
+

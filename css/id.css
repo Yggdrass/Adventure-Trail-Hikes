@@ -1,0 +1,40 @@
+
+
+/*----- ID -------------------------------------------------------------------------------------------*/
+
+
+#card_text {
+    padding-left: 1.5rem;
+}
+
+#card_image {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+
+#footer_social_media_icons {
+    font-size: 5rem;
+}
+
+#hamburger-menu:checked ~ .hamburger-nav {
+    display: flex;
+}
+
+#icon_faq {
+    max-width: 2rem;
+}
+
+#icon_trails {
+    max-width: 3rem;
+    padding-left: 1rem;
+}
+
+#icon_trails_info {
+    max-width: 2.5rem;
+}
+
+#trail_info {
+    font-size: 1.5rem;
+}
+

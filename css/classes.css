@@ -1,0 +1,58 @@
+
+
+/*----- Classes -------------------------------------------------------------------------------------------*/
+
+
+.button_readMore {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    padding-top: 1rem;
+}
+
+.card_faq {
+    border: 2px solid var(--black);
+    margin: 0 auto;
+    max-width: 36rem;
+}
+
+.company_name {
+    font-weight: 600;
+}
+
+.footer_copyright_text {
+    font-size: 1rem;
+}
+
+.footer_social_media_title {
+    font-size: 2.5rem;
+}
+
+.hamburger-nav {
+    font-size: 4.5rem;
+    position: absolute;
+    top: 120px;
+    left: 0px;   
+}
+
+.image {
+    max-width: 125%;
+}
+
+.logo {
+    max-width: 7em;
+}
+
+.navlink {
+    padding-right: 3rem;
+}
+
+.section {
+    padding: 0 1rem 0 1rem;
+}
+
+.welcome_text {
+    font-size: 1.9rem;
+    max-width: 45ch;
+}
+
+
