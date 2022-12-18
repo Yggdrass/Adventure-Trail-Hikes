@@ -1,6 +1,6 @@
 # Adventure Trail Hikes
 
-![image](images/adventure_trailHikes_logo.png)
+![my image](images/adventure_trailHikes_logo.png)
 
 Create a website for young active adults that want to find a trail hike that suits them.
 
